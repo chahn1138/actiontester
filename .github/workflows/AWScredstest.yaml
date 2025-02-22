@@ -1,4 +1,4 @@
-name: Run AWS TestAction
+name: Run AWS Test WORKFLOW
 
 on:
   push:
