@@ -25,6 +25,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y awscli
+          pip3 install awscli
 
       - name: List S3 buckets
         run: aws s3 ls
